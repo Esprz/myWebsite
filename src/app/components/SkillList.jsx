@@ -28,7 +28,7 @@ const skillsets = [
         percentage: "80",
     },
     {
-        name: "React.js/Next.js",
+        name: "React",
         percentage: "75",
     },
     {
@@ -40,7 +40,7 @@ const skillsets = [
 
 const SkillList = () => {
     return (
-        <div>
+        <div >
             {skillsets.map((skill) =>
                 <SkillsBar key={skill.name}
                     skill={skill.name}
