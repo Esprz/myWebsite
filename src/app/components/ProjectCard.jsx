@@ -3,9 +3,9 @@ import Link from 'next/link'
 import { CodeBracketIcon, EyeIcon } from '@heroicons/react/24/outline'
 import '../globals.css'
 
-const ProjectCard = ({ imgUrl, title, description, gitUrl}) => {
+const ProjectCard = ({ imgUrl, title, tag, description, gitUrl }) => {
     return (
-        <div>
+        <div >
             <div
                 className='h-52 md:h-72 rounded-t-xl relative group'
                 style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}>
@@ -24,7 +24,18 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl}) => {
             <div className='text-black rounded-b-xl py-6 px-4 bg-neutral-200 mt-3'>
 
                 <h5 className='text-xl font-semibold mb-2'>{title}</h5>
-                <p className='text-neutral-800'>{description}</p>
+                
+                <p className='text-neutral-800 text-normal font-serif'>{description}</p>
+
+                <div className='mt-2'>
+                    {tag.map((tag, index) => (
+                        <span key={index} >
+                            <span className='text-neutral-500 italic font-light underline test-base'>{tag}</span>
+                            {index !== {tag}.length - 1 && "  "}
+                        </span>
+                    ))}
+                </div>
+
             </div>
 
         </div>

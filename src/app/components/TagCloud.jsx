@@ -68,7 +68,7 @@ const data = [
         opacity: 4,
     },
     {
-        label: 'Numpy',
+        label: 'Pandas',
         fontSize: 3,
         opacity: 5,
     },
