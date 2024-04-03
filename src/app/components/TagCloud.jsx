@@ -77,21 +77,25 @@ const data = [
         fontSize: 4,
         opacity: 5,
     },
+    /*
     {
         label: 'SQL',
         fontSize: 6,
         opacity: 6,
     },
+    */
     {
         label: 'Next.js',
         fontSize: 3,
         opacity: 4,
     },
+    /*
     {
         label: 'GraphQL',
         fontSize: 3,
         opacity: 4,
     },
+    */
 ]
 
 const ToolsTagCloud = () => {
