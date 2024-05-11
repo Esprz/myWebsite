@@ -1,12 +1,18 @@
-
+"use client"
 import React from 'react'
 import Image from 'next/image'
 import './style.css'
 import HeroSectionAnimation from './HeroSectionAnimation.jsx'
 import Link from 'next/link'
+import { SpeakerWaveIcon } from '@heroicons/react/24/outline'
+import cnchar from 'cnchar';
+import 'cnchar-voice';
 
-//rafce
 const HeroSection = () => {
+    const namePronounceClick = () => {        
+        cnchar.voice.speak('思源 赵');
+        //alert('Button clicked!');
+      };
     return (
         <section>
             <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -16,10 +22,21 @@ const HeroSection = () => {
                         Hello, I&apos;m
                         <br></br>
                         <HeroSectionAnimation />
+                        <br></br>
+                                                
+                        <div className='items-center mt-4'>
+                            <button onClick={namePronounceClick}>
+                                <SpeakerWaveIcon className="h-10 w-10 text-neutral-500 hover:bg-neutral-300" />
+                            </button>    
+                        </div>
+
+
                     </h1>
+                    {/*
                     <p className='text-neutral-500 mb-6 text-base sm:text-lg lg:text-xl'>
-                        Math @ Uwaterloo
+                        Data Science @ Uwaterloo
                     </p>
+                    */}
 
                     <div>
                         {/*<Link href={'https://drive.google.com/file/d/1GsPFWzeqQk9DMa3816CuMjXtuyRkujZA/view?usp=drive_link'} >
