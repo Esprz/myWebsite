@@ -53,7 +53,7 @@ const HeroSection = () => {
                             </button>
                         </Link>*/}
 
-                        <Link href={'https://drive.google.com/file/d/1GsPFWzeqQk9DMa3816CuMjXtuyRkujZA/view?usp=drive_link'} >
+                        <Link href={'https://drive.google.com/file/d/1IBtXxr6OIyaD7qk8gyB-HHRvSz7npVNP/view?usp=sharing'} >
                             <button className='button-widget bg-transparent hover:bg-neutral-300 text-black border-2 border-black mt-3'>
                                 Download Resume
                             </button>
