@@ -12,7 +12,7 @@ const AboutSection = () => {
         <div className='grid md:grid-cols-12 justify-center mx-auto'>
           <div className='col-span-4'>
             <ul className='text-base lg:text-lg space-y-5 mt-4 mb-8 md:ml=[5%] lg:ml-[10%]'>
-              <li>&#8226;  Math @ Uwaterloo GPA: 4.0/4.0</li>
+              <li>&#8226;  Data Science @ Uwaterloo </li>
               <li>&#8226;  Winner @ Hackher2024</li>
               <li>&#8226;  Photographer @ CSC</li>
             </ul>
