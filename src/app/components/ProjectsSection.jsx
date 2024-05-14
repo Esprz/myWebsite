@@ -27,6 +27,7 @@ const projectsData = [
         tag: ["Typescript", "React", "HTML", "CSS", "Python", "Flask", "Argotranslate"],
         gitUrl: "https://devpost.com/software/versaverse",
     },
+    /*
     {
         id: 1,
         title: "MOYU",
@@ -34,7 +35,7 @@ const projectsData = [
         img: "/images/projects/moyu.png",
         tag: ["Dart", "Flutter","LeanCloud"],
         gitUrl: "/",
-    }
+    }*/
 ]
 
 const ProjectsSection = () => {
