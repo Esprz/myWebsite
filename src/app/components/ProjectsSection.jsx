@@ -34,7 +34,7 @@ const projectsData = [
         description: "An innovative used book exchange app, built with Flutter and Dart, leveraging LeanCloud as its backend. It facilitates seamless swapping of books among users. With a user base of 200+ individuals in the high school campus, it has obtained a Copyright Certificate in China.",
         img: "/images/projects/moyu.png",
         tag: ["Dart", "Flutter","LeanCloud"],
-        gitUrl: "/",
+        gitUrl: "https://github.com/Esprz/MOYU",
     }
 ]
 
