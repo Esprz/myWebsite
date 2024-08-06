@@ -2,7 +2,14 @@ import React from 'react'
 import ProjectCard from './ProjectCard'
 
 const projectsData = [
-    
+    {
+        id: 5,
+        title: "StudySphere",
+        description: "A full-stack study social media web application, providing a platform for users to share and explore study posts, resources, and tips.",
+        img: "/images/projects/StudySphere.png",
+        tag: ["React", "TypeScript", "TailwindCSS", "Appwrite"],
+        gitUrl: "https://github.com/Esprz/StudySphere",
+    },
     {
         id: 4,
         title: "ExchangeRateProphet",
