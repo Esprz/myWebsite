@@ -15,20 +15,90 @@ const data = [
     {
         label: 'C/C++',
         fontSize: 9,
-        opacity: 10,
+        opacity: 9,
     },
     {
-        label: 'Dart',
-        fontSize: 4,
-        opacity: 5,
-    },
-    {
-        label: 'Flutter',
+        label: 'React',
         fontSize: 7,
         opacity: 7,
     },
     {
-        label: 'HTML',
+        label: 'Vue',
+        fontSize: 7,
+        opacity: 8,
+    },
+    {
+        label: 'JavaScript',
+        fontSize: 4,
+        opacity: 9,
+    },
+    {
+        label: 'TypeScript',
+        fontSize: 3,
+        opacity: 8,
+    },
+    {
+        label: 'Python',
+        fontSize: 6,
+        opacity: 7,
+    },
+    {
+        label: 'Flask',
+        fontSize: 4,
+        opacity: 5,
+    },
+    
+    {
+        label: 'SQL',
+        fontSize: 6,
+        opacity: 7,
+    },    
+    {
+        label: 'Express',
+        fontSize: 6,
+        opacity: 7,
+    },
+    {
+        label: 'PostgreSQL',
+        fontSize: 4,
+        opacity: 5,
+    },
+    
+    {
+        label: 'Tensorflow',
+        fontSize: 4,
+        opacity: 3,
+    },
+    {
+        label: 'Pandas',
+        fontSize: 3,
+        opacity: 5,
+    },
+    {
+        label: 'Flutter',
+        fontSize: 5,
+        opacity: 5,
+    },
+
+    {
+        label: 'Docker',
+        fontSize: 3,
+        opacity: 5,
+    },
+    {
+        label: 'Git',
+        fontSize: 3,
+        opacity: 4,
+    },
+    {
+        label: 'Bash',
+        fontSize: 3,
+        opacity: 4,
+    },
+    
+    /*
+        {
+        label: 'HTML/CSS',
         fontSize: 4,
         opacity: 4,
     },
@@ -37,65 +107,8 @@ const data = [
         fontSize: 4,
         opacity: 5,
     },
-    {
-        label: 'React',
-        fontSize: 7,
-        opacity: 7,
-    },
-    {
-        label: 'JavaScript',
-        fontSize: 4,
-        opacity: 8,
-    },
-    {
-        label: 'Shell',
-        fontSize: 5,
-        opacity: 6,
-    },
-    {
-        label: 'Python',
-        fontSize: 8,
-        opacity: 9,
-    },
-    {
-        label: 'Tensorflow',
-        fontSize: 6,
-        opacity: 3,
-    },
-    {
-        label: 'Git',
-        fontSize: 6,
-        opacity: 4,
-    },
-    {
-        label: 'Pandas',
-        fontSize: 3,
-        opacity: 5,
-    },
-    {
-        label: 'Flask',
-        fontSize: 4,
-        opacity: 5,
-    },
-    /*
-    {
-        label: 'SQL',
-        fontSize: 6,
-        opacity: 6,
-    },
     */
-    {
-        label: 'Next.js',
-        fontSize: 3,
-        opacity: 4,
-    },
-    /*
-    {
-        label: 'GraphQL',
-        fontSize: 3,
-        opacity: 4,
-    },
-    */
+   
 ]
 
 const ToolsTagCloud = () => {
